@@ -34,7 +34,7 @@ const CuentaRegresiva = () => {
   }, [targetDate]);
 
   return (
-    <div className="bg-[#1B3022] p-8 rounded-2xl shadow-2xl text-center max-w-lg mx-auto border border-[#37553C]">
+    <div className="bg-[#1B3022] p-5 rounded-2xl shadow-2xl text-center max-w-lg mx-auto border border-[#37553C]">
       <h2 className="text-[#C19A6B] text-2xl font-serif mb-2 tracking-widest uppercase">
         Nuestra Boda
       </h2>
@@ -48,7 +48,7 @@ const CuentaRegresiva = () => {
             key={label}
             className="flex flex-col bg-[#16261b] p-3 rounded-lg border border-[#37553C]/20"
           >
-            <span className="text-[#C19A6B] text-3xl font-bold font-mono">
+            <span className="text-[#C19A6B] text-2xl font-bold font-mono">
               {String(value).padStart(2, "0")}
             </span>
             <span className="text-[#37553C] text-[10px] uppercase tracking-widest mt-1 font-bold">

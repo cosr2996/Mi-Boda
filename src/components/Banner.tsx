@@ -21,12 +21,7 @@ const Banner = () => {
           <div className="absolute inset-0 bg-[#1B3022]/10 mix-blend-multiply"></div>
         </div>
 
-        {/* Monograma Minimalista en la parte superior */}
-        <div className="absolute top-12 left-0 w-full text-center">
-          <span className="text-[#1B3022] text-5xl opacity-40 font-light italic tracking-widest">
-            S&C
-          </span>
-        </div>
+       
       </div>
 
       {/* 2. Bloque de Información Flotante */}
@@ -49,14 +44,7 @@ const Banner = () => {
           </div>
 
           <div className="space-y-4">
-            <div className="flex flex-col items-center gap-1">
-              <p className="text-[#37553C] text-sm font-medium uppercase tracking-[0.2em]">
-                Zacatecas, ZAC.
-              </p>
-              <p className="text-[#8B4513] text-xs font-bold uppercase italic">
-                Misa: 5:30 Horas
-              </p>
-            </div>
+            
 
             <button className="mt-4 w-full bg-[#1B3022] hover:bg-[#8B4513] text-white py-4 rounded-full text-[10px] uppercase tracking-[0.3em] font-bold shadow-2xl transition-all active:scale-95">
               Confirmar Asistencia

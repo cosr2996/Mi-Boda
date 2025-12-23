@@ -10,7 +10,7 @@ const RSVPSection = () => {
       return;
     }
 
-    const telefono = "4924471821"; // Reemplaza con tu número de WhatsApp (con código de país)
+   const telefono = "5214924471821";// Reemplaza con tu número de WhatsApp (con código de país)
     const mensaje = `¡Hola! Soy ${nombre}. Confirmo que ${
       asistencia === "si" ? "SÍ asistiré" : "NO podré asistir"
     } a su boda.`;
