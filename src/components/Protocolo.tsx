@@ -25,10 +25,10 @@ const UbicacionYProtocolo = () => {
               Capilla de la Medalla Milagrosa
             </p>
             <p className="text-[#DFD3C3]/70 text-sm mb-6 uppercase tracking-widest">
-              05:00 PM
+              05:30 PM
             </p>
             <a
-              href="https://maps.google.com"
+              href="https://maps.app.goo.gl/BePAMV8iteZiknUPA"
               target="_blank"
               className="inline-block border border-[#D18B39] text-[#D18B39] px-8 py-2.5 rounded-sm text-[10px] uppercase tracking-[0.25em] hover:bg-[#D18B39] hover:text-[#2D3A30] transition-all duration-300"
             >

@@ -5,7 +5,7 @@ const NuestraHistoria = () => {
     /* Fondo Verde Bosque Mate (#2D3A30) 
        Es un color profundo que transmite elegancia y madurez.
     */
-    <section className="bg-[#2D3A30] py-2 px-6 font-serif overflow-hidden">
+    <section className="bg-[#2D3A30] py-10 px-6 font-serif overflow-hidden">
       <div className="max-w-md mx-auto">
         {/* Título Principal en color Crema/Oro para contraste */}
         <div className="text-center mb-12">
